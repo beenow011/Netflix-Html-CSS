@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-image: url("background.jpg");
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  background-color: #000000d1;
+  display:flex ;
+  flex-direction: column;
+}
+
+.logo img{
+    height: 46px;
+    width: 141px;
+    margin: 35px auto auto 40px;
+    background: transparent
+}
+.form{
+    background-color: #000000c0;
+    display: flex;
+    /* align-items: center; */
+    height: 560px;
+    width: 455px;
+    margin: auto;
+    margin-top: 100px;
+    
+
+}
+.form h2{
+
+    justify-content: center;
+     color: white;
+     font-family: 'Roboto', sans-serif;
+     font-size: 26px;
+ 
+    
+}
+.content{
+    margin: 53px;
+  
+margin-top: 94px;
+}
+.input{
+    width: 328px;
+height: 54px;
+font-family: 'Inter', sans-serif;
+margin-top: 32px;
+background-color: rgba(57, 57, 57, 0.895);
+color: gray;
+padding-left: 20px;
+border: 0px;
+border-radius: 4px;
+border: 0px 0px 2px 0;
+}
+.input2{
+    width: 328px;
+    height: 54px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 18px;
+    background-color: rgba(57, 57, 57, 0.895);
+    color: gray;
+    padding-left: 20px;
+    border: 0px;
+    border-radius: 4px;
+}
+.submit{
+    background-color: red;
+    height: 41px;
+    margin-top: 42px;
+    border-radius: 3px;
+    display: flex;
+   
+}
+.submit p{
+    font-family: 'Roboto', sans-serif;
+     font-size: 17px;
+    margin: auto;
+     color: white;
+     
+}
+.checkbox{
+    display: flex;
+    margin-top: 13px;
+}
+.checkbox input{
+    height: 21px;
+    width: 15px;
+  }
+
+
+.rem{
+    color:white;
+    display: flex;
+    
+font-family: 'Inter', sans-serif;
+margin-left: 7px;
+}
+.rem2{
+    display: flex;
+    margin-left: 123px;
+    
+    color:white;
+    
+    
+font-family: 'Inter', sans-serif;
+
+}
+.foot{
+    background-color: #000000a4;
+    width: 100vw;
+    height: 30vh;
+    margin-top: auto;
+}
+.rem2:hover{
+    text-decoration: solid;
+}
+.foot p{
+    color: grey;
+    font-family: 'Inter', sans-serif;
+    margin-top: 61px;
+    margin-left: 210px;
+
+    
+}
+.p{
+    display: flex ;
+}
+.lang{
+
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+.lang{
+    background-color: rgba(57, 57, 57, 0.895);
+    color: gray;
+    border: 0px;
+    margin-left: auto;
+    margin-right: 19vw;
+    margin-top: 37px;
+    width: 140px;
+  
+}
